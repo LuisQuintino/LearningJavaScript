@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+    var time1, qtd_goltime1, time2, qtd_goltime2;
+    time1 = prompt("Qual o primeiro time? ");
+    time2 = prompt("Qual o segundo time? ");
+    qtd_goltime1 = prompt("Quantidade de gols do primeiro time: ");
+    qtd_goltime2 = prompt("Quantidade de gols do segundo time: "); 
+    if (parseInt(qtd_goltime1) > parseInt(qtd_goltime2)){
+        alert("O time vencedor foi o " + time1);
+    } else if (parseInt(qtd_goltime1) < parseInt(qtd_goltime2)) {
+        alert("O time vencedor foi o " + time2);
+    }  else {
+        alert("Foi empate");
+    }
+    
+    
+    </script>
+</body>
+</html>

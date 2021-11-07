@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<HEAD>
+<meta charset ="UTF-8">
+</head>
+<BODY>
+<script>
+var sal, amnt, nv_sal
+sal = prompt("Digite o salário do funcionário:");
+if ( sal <= 400){
+    amnt = (sal * 15) / 100;
+    nv_sal = parseInt(sal) + amnt;
+    alert("O novo salário é " + nv_sal);
+}
+else if (400 < sal && sal <= 700){
+    amnt = (sal*12)/100;
+    nv_sal = parseInt(sal) + amnt;
+    alert("O novo salário é " + nv_sal);
+}
+else{
+    amnt = (sal*10)/100;
+    nv_sal = parseInt(sal) + amnt;
+    alert("O novo salário é " + nv_sal);
+}
+
+</script>
+</body>
+</html>

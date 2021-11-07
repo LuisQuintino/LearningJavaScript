@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+    var valorproduto, nv_valor;
+    valorproduto = prompt(" Qual o valor do produto? ");
+    if (parseFloat(valorproduto) < 20.00){
+        nv_valor = parseFloat(valorproduto) +(( parseFloat(valorproduto) * 45)/ 100);
+        alert("O valor de venda será: " +  parseFloat(nv_valor))
+    } else {
+        nv_valor = parseFloat(valorproduto) +(( parseFloat(valorproduto) * 30)/ 100);
+        alert("O valor de venda será: " + parseFloat(nv_valor))
+    }
+    
+    
+    </script>
+</body>
+</html>
