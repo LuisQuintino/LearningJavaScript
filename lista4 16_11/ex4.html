@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<HEAD>
+<meta charset ="UTF-8">
+</head>
+<BODY>
+<script>
+var valoresacontar, valoresnegativos = 0, inteiro;
+valoresacontar = prompt("Quantos valores deseja verificar?");
+for(var i = 1; i <= valoresacontar; i++){
+    inteiro = prompt("Qual o valor?");
+    if ( inteiro < 0){
+        valoresnegativos++;
+    }
+}
+alert("Desses números digitados, "+ valoresnegativos + " são negativos");
+</script>
+</body>
+</html>
